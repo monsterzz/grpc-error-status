@@ -1,0 +1,9 @@
+*.log
+*.tgz
+
+.env
+
+.eslintcache/
+.idea/
+.npm/
+node_modules/

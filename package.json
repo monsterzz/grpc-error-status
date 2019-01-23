@@ -1,0 +1,29 @@
+{
+  "name": "grpc-error-status",
+  "version": "1.0.1",
+  "description": "Decodes grpc-status-details-bin content",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/monsterzz/grpc-error-status"
+  },
+  "keywords": [
+    "grpc",
+    "protobuf"
+  ],
+  "author": "Gleb Borisov",
+  "license": "MIT",
+  "dependencies": {
+    "google-protobuf": "^3.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "eslint-config-google": "^0.11.0",
+    "mocha": "^5.2.0"
+  }
+}
